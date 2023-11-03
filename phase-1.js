@@ -33,12 +33,6 @@ function workout() {
     liftWeights()
   ]).then(() => console.log('done working out'))
   .catch((err) => console.error(err));
-
-  // stretch()
-  //   .then(runOnTreadmill)
-  //   .then(liftWeights)
-  //   .then(() => console.log("done working out"))
-  //   .catch((err) => console.log(err));
 }
 
 
